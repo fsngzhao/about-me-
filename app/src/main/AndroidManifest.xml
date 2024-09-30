@@ -12,7 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CC173FAboutMe"
         tools:targetApi="31">
-
+        <activity
+            android:name=".AboutJaneDoeActivity"
+            android:exported="false" />
         <activity
             android:name=".AboutFangActivity"
             android:exported="false" />

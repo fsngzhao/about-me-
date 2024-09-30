@@ -32,10 +32,13 @@ class MainActivity : AppCompatActivity() {
                 val intent = Intent(this, AboutFangActivity::class.java)
                 startActivity(intent)
             })
-        val aboutMe2 = AboutMe(R.mipmap.ic_launcher,
-            "Jane Doe",
-            "zzz",
-            { /**/})
+        val aboutMe2 = AboutMe(R.drawable.jane_doe,
+            "JaneDoe",
+            "zzzzzzzzzz",
+            {view->
+                val intent = Intent(this,AboutJaneDoeActivity::class.java)
+                startActivity(intent)
+            })
 
 
         val arrList = listOf(aboutMe1, aboutMe2)
